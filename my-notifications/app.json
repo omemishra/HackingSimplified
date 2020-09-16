@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Notify Me",
+    "slug": "Notify-Me",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.hackingsimplified.notifyme",
+      "buildNumber": "1.0.5"
+    },
+    "android": {
+      "package": "com.hackingsimplified.notifyme",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 5,
+      "permissions": [],
+      "enableDangerousExperimentalLeanBuilds": true,
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
